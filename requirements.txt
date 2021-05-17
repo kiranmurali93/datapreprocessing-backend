@@ -2,8 +2,6 @@ Flask==2.0.0
 gunicorn==20.1.0
 matplotlib==3.3.4
 numpy==1.19.5
-python-dateutil==2.8.1
-python-qt-binding==0.4.3
 requests==2.25.1
 resource-retriever==1.12.6
 rviz==1.13.17
