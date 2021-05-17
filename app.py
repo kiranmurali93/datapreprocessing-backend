@@ -11,6 +11,9 @@ def get_location_names():
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
+@app.route('/', methods=['get'])
+def working():
+    return 'its working'
 
 @app.route('/predict_home_price', methods=['GET', 'POST'])
 def predict_home_price():
