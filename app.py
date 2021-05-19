@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from whitenoise import WhiteNoise
 import util
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/')
+app.wsgi_app = WhiteNoise(app.wsgi_app, root='artifacts/', prefix='artifacts/')
 
 @app.route('/get_location_names', methods=['GET'])
 def get_location_names():
