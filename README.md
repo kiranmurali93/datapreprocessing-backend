@@ -1,6 +1,6 @@
 # Backend for connecting ml model for predicting plot price in banglore
 
-![screenshot]('dmweb.png')
+![screenshot](https://github.com/kiranmurali93/datapreprocessing-backend/blob/main/images/dmweb.png?raw=true)
 
 - artifacts cointain the pickle file and a json file.
 - client folder cointains basic html layout for the web.
